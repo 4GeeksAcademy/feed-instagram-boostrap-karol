@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-0 m-0 border-0 bd-example m-0 border-0">
+    
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="https://img.icons8.com/?size=512&id=32292&format=png" width="25px" alt="">  Instagram</a>
+        <div class="btn-group">
+          <button type="button" class="btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Caption:
+                <div class="input-group flex-nowrap">
+                  <input type="text" class="form-control" placeholder="Add the caption of your post here" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <img src="https://img.icons8.com/?size=512&id=3868&format=png" width="17px" alt="">
+                <img src="https://img.icons8.com/?size=512&id=21613&format=png" width="18px" alt="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-secondary btn-lg dropdown-toggle m-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://img.icons8.com/?size=512&id=364&format=png" width="30px" alt=""></button>
+          <ul class="dropdown-menu">
+           <li>Profile</li>
+           <li>Accesibility</li>
+           <li>Privacy and Date</li>
+           <li>Log out</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><img src="https://img.icons8.com/?size=512&id=22984&format=png" width="20" alt=""></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
+        </svg></button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="container-fluid d-grid gap-3" style="width: 60%; padding-top: 10px;">
+        <div class="row">
+          <div class="col"><img src="https://img.freepik.com/foto-gratis/playa-tropical_74190-188.jpg" class="rounded" style="width:100%"></div>
+          <div class="col"><img src="https://c.files.bbci.co.uk/C104/production/_94821494_westbay.jpg" class="rounded" style="width:100%"></div>
+          <div class="col"><img src="https://i.pinimg.com/736x/67/bb/93/67bb93e9509be7a38ed52f2e1ec6b7fd.jpg" class="rounded" style="width:100%"></div>
+        </div>
+        <div class="row">
+          <div class="col"><img src="https://media.vozpopuli.com/2022/07/Australia-e1659088883460-1024x576.jpg" class="rounded" style="width:100%"></div>
+          <div class="col"><img src="https://statics.forbesargentina.com/2022/02/621671538e12c.jpg" class="rounded" style="width:100%"></div>
+          <div class="col"><img src="https://topadventure.com/__export/1687285070168/sites/laverdad/img/2023/06/20/dinamarca.jpg_557888218.jpg" class="rounded" style="width:100%"></div>
+        </div>
+        <div class="row mb-3">
+          <div class="col"><img src="https://cdn0.bodas.com.mx/article-gallery-o/00000/original/1280/jpg/articulos-a-fotos/luna-de-miel/china/gran-muralla-china.jpeg" class="rounded" style="width:100%"></div>
+          <div class="col"><img src="https://st1.uvnimg.com/dims4/default/0d61374/2147483647/thumbnail/480x270/quality/75/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fimj%2Fnuestrorumbo%2Fm%2Fmachu-picchu.jpg" class="rounded" style="width:100%"></div>
+          <div class="col"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgGvWf7XPw_o3hxVX6pLAvqT5X3KG22H9yyClWQzJrlnSRLErKP97IswZXeNi78pNyWIM&usqp=CAU" class="rounded" style="width:100%">
+          </div>
+        </div>
+    </div></div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="d-flex justify-content-center mt-3">
+          <div class="card" style="width: 30rem;">
+            <div class="card-header">
+              <strong>My Crazy dog Spark! </strong> 
+             
+            </div>
+            <img src="https://s1.eestatic.com/2021/11/11/curiosidades/mascotas/626448862_214582603_1706x960.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <strong>204 likes</strong> 
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+          <div class="card" style="width: 30rem;">
+            <div class="card-header">
+              <strong>The greatness of Croatia </strong> 
+            </div>
+            <img src="https://i0.wp.com/www.tastecroatia.co.uk/wp-content/uploads/2015/07/dubrovnik-512798_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <strong>26985 likes</strong> 
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+          <div class="card" style="width: 30rem;">
+            <div class="card-header">
+              <strong>Goal the Cristiano </strong> 
+            </div>
+            <img src="https://www.thesun.co.uk/wp-content/uploads/2018/04/nintchdbpict000396491461-e1522955467693.jpg"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <strong>204 likes</strong> 
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+  </div>
+     
+    </div>
+  </body>
+</html>
